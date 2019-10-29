@@ -3,15 +3,35 @@ CSS + HTML Project:
 
 Review Questions:
     1. What is Semantic HTML? 
+        - Semantic HTML is giving meaning with HTML tags.
+
     2. What is HTML used for? 
+        - HTML is used to build a web page's content.
+
     3. What is an attribute and where do we put it? 
+        - An attribute is something like 'class', 'src', or 'href'. It's used to add additional meaning, content, or greater ability to style.
+
     4. What is the h1 tag used for? How many times should I use it on a page?
+        - The 'h1' tag is used as the main heading title. It should only be used once per page.
+
     5. Name two tags that have required attributes
+        - The 'img' tag requires an 'src' attribute to include the content. The 'a' tag requires an 'href' attribute to link to another page/area.
+
     6. What do we put in the head of our HTML document? 
+        - The head gets metadata, information about/for our site.
+
     7. What is an id? 
+        - An ID is a very specific attribute. It can only point to one tag, and is used with styling.
+
     8. What elements can I add an id to? 
+        - An ID can be added to any element, as long as that specific instance is only used once.
+
     9. How many times can I use the same id on a page? 
+        - You should only use an ID once, for more broad usage, use 'class'.
+
     10. What is a class? 
+        - A class is a specific attribute used for styling. It is less specific than ID.
+        
     11. What elements can I add a class to? 
     12. How many times can I use the same class on a page? 
     13. How do I get my link to open in a new tab?
