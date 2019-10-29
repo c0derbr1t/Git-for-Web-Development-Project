@@ -111,12 +111,32 @@ Review Questions:
         - /* comment */
 
     31. How do I find out what file I am in, when I am using the command line? 
+        - 'pwd'
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        - 'ls', use 'ls -la' to see the hidden folders as well.
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        - 'rm fileName' You need to be careful because it is permanent. There is no undoing it.
+
     34. Why should I use version control? 
+        - Version control allows you to make changes as needed without actually changing the main product. It also allows for greater ease in programming in a team.
+
     35. How often should I commit to github?
+        - Very often. Definitely when you finish sections of work, but also about every 20 minutes will be helpful.
+
     36. What is the command we would use to push our repo up to github? 
+        - 'git push', unless you haven't set your origin yet, then it is 'git push --set-upstream origin branchName'. Git Bash will tell you this if you haven't set it yet.
+
     37. Walk me through Lambda's git flow.
+        - Create your own version by Forking
+        - Add TL as collaborator
+        - Clone the repo
+        - create your named branch ('firstName-lastName)
+        - commit changes to this branch
+        - create a Pull Request using your fork as the because
+            - Add TL as a reviewer
+        - TL reviews, and merges the work into your master fork
 
 
 Stretch Questions:
