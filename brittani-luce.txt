@@ -141,7 +141,20 @@ Review Questions:
 
 Stretch Questions:
     1. What is the difference between an inline element and a block element?
+        - An inline element does not allow height and width adjustments, and a block element allows this styling.
+
     2. What happens when an element is positioned absolutely? 
+        - The positioning is relative to its nearest positioned ancestor. This means it will stay wherever it is positioned with the parent. If there is not a positioned element it is positioned to the document body. It will then move along with page scrolling.
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        - margin: 0 auto;
+        - width: ...;
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        - Block:        <div>, <p>, <section>
+        - Inline:       <span>, <img>
+        - Inline-block: <button>
+
     5. In your own words, explain the box model. What is the fix for the box model? 
+        - Every element is a box, a container. Every box has a margin around the outside, a border, then padding inside of the border, and the content is inside of the padding. 
+        - box-sizing: border-box;  This includes padding in the elements width!
